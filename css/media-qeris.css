@@ -1,0 +1,43 @@
+
+@media(max-width:650px){
+    header .head ul{
+        display: block;
+    }
+    header .head ul li{
+        margin-bottom: 10px;
+    }
+    .icon_info{
+        display: flex;
+        flex-direction: column;
+    }
+    .icon_item{
+        margin: auto;
+    }
+    .foto_manager{
+        flex-direction: column-reverse;
+    }
+    .manager{
+        margin: auto;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:1100px){
+    .piple_paragraf{
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:720px){
+    .galery_img{
+       margin: auto;
+    }
+    .logo_brands{
+        flex-direction: column;
+    }
+    .brands_img{
+        margin: auto;
+        margin-bottom: 25px;
+    }
+    .contacts_form{
+        flex-direction: column;
+    }
+}
